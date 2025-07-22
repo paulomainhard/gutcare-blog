@@ -69,6 +69,36 @@
     a {
       color: #00e0ff;
     }
+    
+    .related-articles {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.related-articles h2 {
+  color: #fcd34d;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.products-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.product-card {
+  flex: 1 1 45%;  /* Tenta ocupar 45% da largura, mas ajusta conforme o espaço */
+  max-width: 300px;
+}
+
   </style>
 </head>
 <body>
@@ -130,6 +160,25 @@
       <img src="https://imgur.com/Sfv2abx.jpg" alt="PrimeBiome bottles with satisfaction guarantee banner" class="final-image" loading="lazy" />
     </a>
   </main>
+
+<section class="related-articles">
+<h2>Related Articles</h2>
+<div class="products-grid">
+
+<a href="https://gutcare.fit/prime-biome/02-why-your-bloated-belly-isnt-fat-its-this" class="product-card" target="_blank">
+<img src="https://imgur.com/aeY02E6.jpg" alt="A lush, peaceful garden shaped like an abstract intestine — made of winding flower paths, leafy arches, and blooming plants. Tiny symbolic “bad bacteria” (drawn like quirky cartoon gremlins.">
+</a>
+
+<a href="https://gutcare.fit/mitolyn/05-how-i-beat-the-afternoon-slump-without-sugar-or-coffee" class="product-card" target="_blank">
+<img src="https://imgur.com/ZaMzdJg.jpg" alt="A before-after scene: on the left, slumped posture and dark circles; on the right, upright and glowing, with mitochondria floating like balloons.">
+</a>
+
+<a href="https://gutcare.fit/14-day/05-real-14-day-wins" class="product-card" target="_blank">
+<img src="https://imgur.com/YVNYhV2.jpg" alt="Corkboard with three Polaroid before/after gut reset photos and mood/sleep/energy speech bubbles.">
+</a>
+
+</div>
+</section>
 
   <footer>
     <h3>FAQs & Medical Disclaimer</h3>

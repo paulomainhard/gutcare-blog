@@ -25,7 +25,7 @@
       background: radial-gradient(circle, #0f2027, #203a43, #2c5364);
       color: #e0f7fa;
     }
-    h1, h2 {
+    h1, h2, h3 {
       color: #00e5ff;
     }
     h1 {
@@ -80,6 +80,34 @@
       border-radius: 16px;
       box-shadow: 0 0 30px rgba(0, 255, 255, 0.1);
     }
+.related-articles {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.related-articles h2 {
+  color: #fcd34d;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.products-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.product-card {
+  flex: 1 1 45%;  /* Tenta ocupar 45% da largura, mas ajusta conforme o espaço */
+  max-width: 250px;
+}
   </style>
 </head>
 <body>
@@ -129,6 +157,25 @@
       <img src="https://i.imgur.com/Sfv2abx.jpg" alt="Imagem final do blog" loading="lazy" class="half-size" />
     </a>
   </main>
+  
+<section class="related-articles">
+  <h2>Related Articles</h2>
+  <div class="products-grid">
+
+    <a href="https://gutcare.fit/prime-biome/10-bloated-and-exhausted-reset-your-gut" class="product-card" target="_blank">
+      <img src="https://imgur.com/CUloWL6.jpg" alt="A cozy, smiling woman wrapped in a soft blanket floating on a cloud, surrounded by icons of skin, sleep, and mood—representing total-body wellness.">
+    </a>
+
+    <a href="https://gutcare.fit/mitolyn/10-detox-without-deprivation" class="product-card" target="_blank">
+      <img src="https://imgur.com/OY7TzWb.jpg" alt="A poetic fantasy scene: tired dragon (toxins) being peacefully walked away by glowing mitochondria in armor, symbolizing gentle internal detox.">
+    </a>
+
+    <a href="https://gutcare.fit/14-day/08-quiet-your-gut-quiet-your-mind" class="product-card" target="_blank">
+      <img src="https://imgur.com/RCMe5K6.jpg" alt="Lotus pond merging into gut silhouette underwater with koi fish probiotics swimming peacefully.">
+    </a>
+
+  </div>
+</section>
 
   <footer>
     <h3>FAQs & Disclaimer</h3>

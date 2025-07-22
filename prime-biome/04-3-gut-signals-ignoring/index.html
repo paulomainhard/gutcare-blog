@@ -69,6 +69,35 @@
     a {
       color: #00e0ff;
     }
+    .related-articles {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.related-articles h2 {
+  color: #fcd34d;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.products-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.product-card {
+  flex: 1 1 45%;  /* Tenta ocupar 45% da largura, mas ajusta conforme o espaço */
+  max-width: 300px;
+}
+
   </style>
 </head>
 <body>
@@ -137,6 +166,25 @@
       <img src="https://imgur.com/Sfv2abx.jpg" alt="PrimeBiome bottles and guarantee banner" class="final-image" loading="lazy">
     </a>
   </main>
+
+<section class="related-articles">
+<h2>Related Articles</h2>
+<div class="products-grid">
+
+<a href="https://gutcare.fit/prime-biome/06-the-gut-pros-wont-tell" class="product-card" target="_blank">
+<img src="https://imgur.com/QKmUHve.jpg" alt="Scientist whispering to lettuce‑ear icon, holding vial, illustrating concealed soil‑based secret.">
+</a>
+
+<a href="https://gutcare.fit/mitolyn/03-this-isnt-caffeine" class="product-card" target="_blank">
+<img src="https://imgur.com/hlB4oYz.jpg" alt="A battery icon slowly charging up as tiny mitochondria flow into it like fuel cells.">
+</a>
+
+<a href="https://gutcare.fit/14-day/03-stop-5-fridge-toxins" class="product-card" target="_blank">
+<img src="https://imgur.com/2x4z21k.jpg" alt="Open fridge door showing ghost silhouettes of processed foods with probiotic mascot outside holding a red X flag.">
+</a>
+
+</div>
+</section>
 
   <footer>
     <h3>FAQs & Medical Disclaimer</h3>

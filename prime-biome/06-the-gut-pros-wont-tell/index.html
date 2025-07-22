@@ -69,6 +69,36 @@
     a {
       color: #00e0ff;
     }
+
+    .related-articles {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.related-articles h2 {
+  color: #fcd34d;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.products-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.product-card {
+  flex: 1 1 45%;  /* Tenta ocupar 45% da largura, mas ajusta conforme o espaço */
+  max-width: 300px;
+}
+
   </style>
 </head>
 <body>
@@ -137,6 +167,25 @@
       <img src="https://imgur.com/Sfv2abx.jpg" alt="PrimeBiome bottles with satisfaction guarantee banner" class="final-image" loading="lazy" />
     </a>
   </main>
+
+<section class="related-articles">
+<h2>Related Articles</h2>
+<div class="products-grid">
+
+<a href="https://gutcare.fit/prime-biome/09-feel-light-again-from-the-soil-up" class="product-card" target="_blank">
+<img src="https://imgur.com/9sAohQn.jpg" alt="Illustration of a butterfly made from leaves and roots rising from a vibrant spiral of soil, symbolizing gut healing and digestive freedom through soil-based probiotics. Bright, airy background evokes lightness and relief.">
+</a>
+
+<a href="https://gutcare.fit/mitolyn/06-biohack-your-energy-without-the-crash" class="product-card" target="_blank">
+<img src="https://imgur.com/RtHme48.jpg" alt="A circuit board morphing into a brain with glowing mitochondria pulsing through it.">
+</a>
+
+<a href="https://gutcare.fit/14-day/06-your-ultimate-digestive-toolkit" class="product-card" target="_blank">
+<img src="https://imgur.com/Embo30b.jpg" alt="Open toolbox overflowing with recipe cards, veggies, clipboard checklist and probiotic bottle, glowing with green sparkles.">
+</a>
+
+</div>
+</section>
 
   <footer>
     <h3>FAQs & Disclaimer</h3>

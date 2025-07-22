@@ -60,6 +60,36 @@
       font-size: 0.9rem;
       color: #000000;
     }
+
+    .related-articles {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.related-articles h2 {
+  color: #561b28;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.products-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.product-card {
+  flex: 1 1 45%;  /* Tenta ocupar 45% da largura, mas ajusta conforme o espaço */
+  max-width: 250px;
+}
+
   </style>
 </head>
 <body>
@@ -133,6 +163,25 @@
       <li>Cellular support for overall vitality</li>
       <li>Gentle on your body, effective on results</li>
     </ul>
+
+<section class="related-articles">
+<h2>Related Articles</h2>
+<div class="products-grid">
+
+<a href="https://gutcare.fit/mitolyn/06-biohack-your-energy-without-the-crash" class="product-card" target="_blank">
+<img src="https://imgur.com/RtHme48.jpg" alt="A circuit board morphing into a brain with glowing mitochondria pulsing through it.">
+</a>
+
+<a href="https://gutcare.fit/prime-biome/05-busy-life" class="product-card" target="_blank">
+<img src="https://imgur.com/PL4Wzpa.jpg" alt="Stopwatch face as capsule ticking, with bloated figure disappearing, symbolizing quick gut reset.">
+</a>
+
+<a href="https://gutcare.fit/14-day/05-real-14-day-wins" class="product-card" target="_blank">
+<img src="https://imgur.com/YVNYhV2.jpg" alt="Corkboard with three Polaroid before/after gut reset photos and mood/sleep/energy speech bubbles.">
+</a>
+
+</div>
+</section>
 
     <footer>
       <h3>FAQ & Disclaimer</h3>

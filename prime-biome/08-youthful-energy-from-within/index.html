@@ -69,6 +69,36 @@
     a {
       color: #00e0ff;
     }
+
+    .related-articles {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.related-articles h2 {
+  color: #fcd34d;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.products-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.product-card {
+  flex: 1 1 45%;  /* Tenta ocupar 45% da largura, mas ajusta conforme o espaço */
+  max-width: 300px;
+}
+
   </style>
 </head>
 <body>
@@ -129,6 +159,25 @@
       <img src="https://imgur.com/Sfv2abx.jpg" alt="PrimeBiome bottles with satisfaction guarantee banner" class="final-image" loading="lazy" />
     </a>
   </main>
+
+<section class="related-articles">
+<h2>Related Articles</h2>
+<div class="products-grid">
+
+<a href="https://gutcare.fit/prime-biome/04-3-gut-signals-ignoring" class="product-card" target="_blank">
+<img src="https://imgur.com/Yxi2w5t.jpg" alt="Three warning icons above gut graphic connected to a capsule, illustrating ignored gut signals.">
+</a>
+
+<a href="https://gutcare.fit/mitolyn/04-i-didnt-change-my-diet" class="product-card" target="_blank">
+<img src="https://imgur.com/kn2chTf.jpg" alt="A person stepping out of a shadowy version of themselves into a lighter, slimmer version made of glowing circuitry and leaves.">
+</a>
+
+<a href="https://gutcare.fit/14-day/04-why-day4-gut-gamechanger" class="product-card" target="_blank">
+<img src="https://imgur.com/R9ll0WW.jpg" alt="Leafy plant stopwatch set to 4 with cheering gut cells and confetti of fruits and veggies.">
+</a>
+
+</div>
+</section>
 
   <footer>
     <h3>FAQs & Disclaimer</h3>
